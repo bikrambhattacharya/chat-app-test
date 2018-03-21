@@ -29,7 +29,7 @@ componentDidMount(){
       <h1>This a test chat app by Bikram Bhattcharya</h1>
       <Launcher
         agentProfile={{
-          teamName: 'live-chat',
+          teamName: 'Fun chat',
           imageUrl: 'https://a.slack-edge.com/66f9/img/avatars-teams/ava_0001-34.png'
         }}
         onMessageWasSent={this._onMessageWasSent.bind(this)}
